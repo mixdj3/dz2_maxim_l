@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: #E5E5E5;
+    font-family: "Arial, sans-serif";
+
+
+}
+
+.cv {
+    width: 595px;
+    height: 770px;
+    background-color: #ffffff;
+    margin: 0 auto;
+
+}
+
+.cv hr {
+    border: 2px solid black;
+}
+
+.photo {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.name_too {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+.expiriens ul {
+    list-style: none;
+}
+
+.expiriens{
+    width: 335px;
+    height: 630px;
+}
+
+.exp_1{
+    font-size: 7px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.color{
+    color: #73808D;
+}
+
+.exp_2{
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+.exp_3{
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+}
