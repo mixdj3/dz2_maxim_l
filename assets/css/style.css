@@ -12,12 +12,13 @@ body{
 }
 
 .cv {
-    width: 595px;
-    height: 770px;
+    max-width: 595px;
     background-color: #ffffff;
     margin: 0 auto;
 
 }
+
+/*Редактирование шапки*/
 
 .cv hr {
     border: 2px solid black;
@@ -43,13 +44,37 @@ body{
     font-weight: 500;
 }
 
+.title {
+    display: flex;
+    align-items: center;
+    padding-bottom: 32px;
+    padding-top: 44px;
+}
+
+.title div {
+    padding-right: 162px;
+    padding-left: 48px;
+}
+
+/*Редактирование основной информации*/
+
+/*Первый блок*/
+
 .expiriens ul {
     list-style: none;
 }
 
 .expiriens{
-    width: 335px;
-    height: 630px;
+    min-width: 335px;
+    display: flex;
+}
+
+.color{
+    color: #73808D;
+}
+
+.end{
+    padding-bottom: 20px;
 }
 
 .exp_1{
@@ -59,10 +84,6 @@ body{
     letter-spacing: 2px;
     text-transform: uppercase;
 
-}
-
-.color{
-    color: #73808D;
 }
 
 .exp_2{
@@ -75,4 +96,62 @@ body{
     font-size: 10px;
     line-height: 18px;
     font-weight: 500;
+}
+
+.exp_4 {
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.exp_5 {
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+
+.exp_5_nul {
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+/*Второй блок*/
+
+.exp_6 {
+    color: #73808D;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    max-width: 140px;
+}
+
+.expiriens_skill{
+    padding-left: 48px;
+}
+
+.expiriens_info {
+    padding-left: 24px;
+}
+
+.title-info {
+    font-weight: 700;
+}
+
+.social a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #73808D;
+}
+
+.social a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.social a:focus {
+    text-transform: uppercase;
 }
